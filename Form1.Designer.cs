@@ -55,6 +55,8 @@
             // 
             // textBox3
             // 
+            textBox3.BackColor = SystemColors.MenuText;
+            textBox3.ForeColor = SystemColors.Window;
             textBox3.Location = new Point(379, 31);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
@@ -68,15 +70,15 @@
             button1.TabIndex = 4;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
             // 
             // textBox4
             // 
+            textBox4.BackColor = SystemColors.MenuText;
+            textBox4.ForeColor = SystemColors.Window;
             textBox4.Location = new Point(379, 70);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(100, 23);
             textBox4.TabIndex = 3;
-            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // Form1
             // 

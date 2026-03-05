@@ -8,27 +8,14 @@ namespace WinFormsApp1
         public Form1()
         {
             cal = new calculate();
+            InitializeComponent();
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Text = cal.add(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
+            textBox3.Text = "dziala";//cal.add(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
             textBox4.Text = cal.subtract(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            textBox3.Text = cal.subtract(Int32.Parse(textBox1.Text), Int32.Parse(textBox2.Text)).ToString();
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
