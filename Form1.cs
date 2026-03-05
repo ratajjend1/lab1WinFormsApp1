@@ -14,7 +14,7 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Text = "dziala";//cal.add(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
+            textBox3.Text = cal.add(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
             textBox4.Text = cal.subtract(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
         }
     }
